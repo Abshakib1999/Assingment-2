@@ -99,14 +99,13 @@ nav li a{
 .Find-Now li a{  
     border-radius: 8px;
     background: rgb(255, 84, 0);
-    /* box-decoration-break: clone; */
+    
 }
 
 /* section-items */
 .section-content{
     display: flex;
     gap: 10px;
-    /* padding: 20px; */
     border: 20px;
     
 }
@@ -123,4 +122,98 @@ nav li a{
 .choose-section{
     text-align: center;
 }
+.maldives-indonesia{
+    display: flex;
+    gap: 15px; 
+}
 
+.maldives{
+    background-image: url(img/Rectangle\ 5.png);
+    border-radius: 30px;
+    width: 550px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+ 
+}
+.indonesia{
+    background-image: url(img/Rectangle\ 8.png);
+    border-radius: 30px;
+    width: 550px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.srilanka-north_america-kashmir{
+    display: flex;
+    gap: 10px;
+    
+    
+
+}
+.srilanka{
+    background-image: url(img/Rectangle\ 6.png);
+    border-radius: 30px;
+    width: 600px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.north_america{
+    background-image: url(img/Rectangle\ 7.png);
+    /* background-size: ; */
+    border-radius: 30px;
+    width: 600px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+.kashmir{
+    background-image: url(img/Rectangle\ 9.png);
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+.Bangladesh-banderban{
+    display: flex;
+    gap: 10px;
+    
+
+}
+.Bangladesh{
+    background-image: url(img/Rectangle\ 11.png);
+    border-radius: 30px;
+    width: 600px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+
+
+}
+.banderban{
+    background-image: url(img/Rectangle\ 10.png);
+    border-radius: 30px;
+    width: 600px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
