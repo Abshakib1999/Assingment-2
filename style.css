@@ -33,10 +33,10 @@ nav{
 }
 nav > ul{
     display: flex;
-    /* justify-content: space-between; */
     
 }
 nav li{
+    
     list-style: none;
     margin-right: 30px;
     font-weight: 500;
@@ -116,11 +116,14 @@ nav li a{
     height: 30px;
     font-size: 18px;
     text-align: center;
-    border: 10px solid rgb(255, 84, 0) 
-
+    border: 10px solid rgb(255, 84, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    
 }
 .choose-section{
     text-align: center;
+    
 }
 .maldives-indonesia{
     display: flex;
@@ -130,6 +133,7 @@ nav li a{
 .maldives{
     background-image: url(img/Rectangle\ 5.png);
     border-radius: 30px;
+    background-size: 100%;
     width: 550px;
     height: 300px;
     color: rgb(255, 255, 255);
@@ -141,6 +145,7 @@ nav li a{
 .indonesia{
     background-image: url(img/Rectangle\ 8.png);
     border-radius: 30px;
+    background-size: 100%;
     width: 550px;
     height: 300px;
     color: rgb(255, 255, 255);
@@ -151,13 +156,12 @@ nav li a{
 .srilanka-north_america-kashmir{
     display: flex;
     gap: 10px;
-    
-    
 
 }
 .srilanka{
     background-image: url(img/Rectangle\ 6.png);
     border-radius: 30px;
+    background-size: 100% 100%;
     width: 600px;
     height: 300px;
     color: rgb(255, 255, 255);
@@ -170,6 +174,7 @@ nav li a{
     background-image: url(img/Rectangle\ 7.png);
     /* background-size: ; */
     border-radius: 30px;
+    background-size: 100% 100%;
     width: 600px;
     height: 300px;
     color: rgb(255, 255, 255);
@@ -181,6 +186,7 @@ nav li a{
 .kashmir{
     background-image: url(img/Rectangle\ 9.png);
     border-radius: 20px;
+    background-size: 100%;
     width: 600px;
     height: 300px;
     color: rgb(255, 255, 255);
@@ -193,19 +199,17 @@ nav li a{
     display: flex;
     gap: 10px;
     
-
 }
 .Bangladesh{
     background-image: url(img/Rectangle\ 11.png);
     border-radius: 30px;
+    background-size: 100% 100%;
     width: 600px;
     height: 300px;
     color: rgb(255, 255, 255);
     font-size: 50px;
     text-align: center;
     background-repeat: no-repeat;
-
-
 }
 .banderban{
     background-image: url(img/Rectangle\ 10.png);
@@ -217,3 +221,37 @@ nav li a{
     text-align: center;
     background-repeat: no-repeat;
 }
+
+.choose-items-section{
+    display:flex ;
+    gap: 10px;
+}
+.handpicked-paragraph{
+    background-color: rgba(251, 181, 99, 0.05) ;
+    height: 250px;
+    width: 500px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+}
+.world-class{
+    background-color: rgba(41, 206, 246, 0.05);
+    height: 250px;
+    width: 500px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+}
+
+.best-price{
+    background-color: rgba(233, 68, 68, 0.05);
+    height: 250px;
+    width: 500px;
+    background-position: center;
+    border: 1px ;
+    border-radius: 16px;
+    align-items: center;
+    font-display: flex;
+    background-position: 100px;
+}
+
+
+
+
+
